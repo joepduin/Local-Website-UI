@@ -103,7 +103,7 @@ Contributions are welcome! Please open an issue before making major changes.
 
 ## 📜 License
 
-MIT License
+GNU General Public License v3.0
 
 ---
 
