@@ -19,8 +19,8 @@
 
 | Component      | Technology                     |
 |----------------|--------------------------------|
-| Admin Panel    | Python (Flask) or Node.js       |
-| Web Server     | NGINX or Caddy                  |
+| Admin Panel    | Node.js                        |
+| Web Server     | NGINX                          |
 | Public Access  | Cloudflare Tunnel (`cloudflared`)|
 | File Sharing   | Samba (SMB)                    |
 | OS             | Linux (Ubuntu/Debian)          |
