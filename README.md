@@ -1,4 +1,4 @@
-# 🌐 Local Website UI
+# 🌐 Local Website UI [WORK IN PROGRESS]
 
 **Local Website UI** is a self-hosted tool to run and manage local websites with secure public access through Cloudflare Tunnels. It includes a simple admin panel for creating and managing sites, configuring Cloudflare, and handling SMB shares for easy file editing.
 
