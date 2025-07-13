@@ -33,5 +33,5 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/local-website-ui.git
+git clone https://github.com/joepduin/local-website-ui.git
 cd local-website-ui
