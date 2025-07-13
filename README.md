@@ -114,6 +114,6 @@ GitHub: [github.com/joepduin](https://github.com/joepduin)
 
 ```
 
----
+Want me to help with setting up the admin panel code or deployment scripts next?
 
 ```
