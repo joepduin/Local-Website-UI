@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Local Website UI - Admin</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- LOGIN VIEW -->
+  <div id="loginBox">
+    <h2>Admin Login</h2>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <button onclick="login()">Login</button>
+    <p id="loginMessage"></p>
+  </div>
+
+  <!-- ADMIN APP -->
+  <div id="adminApp" style="display: none;">
+    <nav>
+      <button onclick="showPage('dashboard')">Dashboard</button>
+      <button onclick="showPage('createSite')">Create Site</button>
+      <button onclick="showPage('manageSites')">Manage Sites</button>
+      <button onclick="showPage('tunnel')">Cloudflare Tunnel</button>
+      <button onclick="logout()">Logout</button>
+    </nav>
+
+    <!-- DASHBOARD -->
+    <section id="dashboard" class="page">
+      <h1>System Status</h1>
+      <p><strong>RAM Usage:</strong> <span id="ramUsage">Loading...</span></p>
+      <p><strong>Errors:</strong> <span id="errorStatus">None</span></p>
+      <p><strong>Tunnel Status:</strong> <span id="tunnelStatus">Unknown</span></p>
+    </section>
+
+    <!-- CREATE SITE -->
+    <section id="createSite" class="page" style="display:none;">
+      <h1>Create New Site</h1>
+      <input type="text" id="siteNameInput" placeholder="e.g. mysite.local" />
+      <button onclick="createSite()">Create Site</button>
+    </section>
+
+    <!-- MANAGE SITES -->
+    <section id="manageSites" class="page" style="display:none;">
+      <h1>Manage Sites</h1>
+      <div id="siteList">Loading...</div>
+    </section>
+
+    <!-- CLOUDFLARE TUNNEL -->
+    <section id="tunnel" class="page" style="display:none;">
+      <h1>Cloudflare Tunnel</h1>
+      <button onclick="startTunnel()">Start Tunnel</button>
+      <button onclick="stopTunnel()">Stop Tunnel</button>
+    </section>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

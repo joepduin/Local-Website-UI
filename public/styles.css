@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  height: 100vh;
+  padding: 2rem;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+input, button {
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+input {
+  width: 100%;
+  background-color: #1e1e1e;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+nav {
+  margin-bottom: 2rem;
+}
+
+nav button {
+  margin-right: 1rem;
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+nav button:hover {
+  background-color: #555;
+}
+
+#loginBox, .page {
+  max-width: 500px;
+  margin: auto;
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.page {
+  display: none;
+}
+
+#siteList .site {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2a2a2a;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+
+#siteList .site button {
+  background-color: #e53935;
+  color: white;
+  border: none;
+}
+
+#siteList .site button:hover {
+  background-color: #c62828;
+}
