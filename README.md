@@ -1,3 +1,7 @@
+# 🌐 Local Website UI (LWUI)
+
+**Local Website UI** is a self-hosted tool to run and manage local websites with secure public access through Cloudflare Tunnels. It includes a simple admin panel for creating and managing sites, configuring Cloudflare, and handling SMB shares for easy file editing.
+
 ---
 
 ## ⚠️ Project Status
@@ -5,12 +9,6 @@
 **This project is currently under active development and not yet functional.**
 We’re working hard to complete core features, and things may break or not work at all.
 Please do not use this in production yet — stay tuned for updates!
-
----
-
-# 🌐 Local Website UI (LWUI)
-
-**Local Website UI** is a self-hosted tool to run and manage local websites with secure public access through Cloudflare Tunnels. It includes a simple admin panel for creating and managing sites, configuring Cloudflare, and handling SMB shares for easy file editing.
 
 ---
 
