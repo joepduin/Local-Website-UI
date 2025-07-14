@@ -33,8 +33,8 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/joepduin/local-website-ui.git
-cd local-website-ui
+git clone https://github.com/joepduin/lwui.git
+cd lwui
 ````
 
 2. Install dependencies:
@@ -46,7 +46,7 @@ sudo ./install.sh
 3. Start the service:
 
 ```bash
-sudo systemctl start local-website-ui
+sudo systemctl start lwui
 ```
 
 4. Open the admin panel:
