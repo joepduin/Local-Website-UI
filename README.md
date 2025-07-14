@@ -1,6 +1,6 @@
 ---
 
-### ⚠️ Project Status
+## ⚠️ Project Status
 
 **This project is currently under active development and not yet functional.**
 We’re working hard to complete core features, and things may break or not work at all.
