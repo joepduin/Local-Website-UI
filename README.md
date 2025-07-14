@@ -80,7 +80,7 @@ Use the admin panel to:
 
 ---
 
-## 📁 Directory Structure
+## 📁 Directory Structure (not updated)
 
 ```
 /opt/lwui/
@@ -90,9 +90,9 @@ Use the admin panel to:
 │   └── example.local/  -> symlink to /sites/example.local/
 ├── cloudflared/
 │   └── tunnel.yml
-├── config/
-│   └── nginx/
-├── admin-panel/
+├── nginx/
+│   └── template.conf
+├── backand/
 │   └── index.js
 ```
 
