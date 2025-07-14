@@ -71,7 +71,7 @@ Use the admin panel to:
 ## 📁 Directory Structure
 
 ```
-/opt/local-website-ui/
+/opt/lwui/
 ├── sites/
 │   └── example.local/
 ├── smb/
