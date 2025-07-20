@@ -109,7 +109,7 @@ Use the admin panel to:
 
 ## 🤝 Contributing
 
-Sent me a mail on lwui@joepduin.nl if you'd like to collaborate For collaborations, questions, or just to say hi.
+Sent me a mail on info@joepduin.dev if you'd like to collaborate For collaborations, questions, or just to say hi.
 
 ---
 
