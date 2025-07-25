@@ -1,6 +1,6 @@
 > **This project is currently under active development and not yet functional.**
 We’re working hard to complete core features, and things may break or not work at all.
-Please do not use this in production yet — stay tuned for updates!
+Please do not use this in production yet, stay tuned for updates!
 
 # 🌐 Local Website UI (LWUI)
 
@@ -12,7 +12,7 @@ Please do not use this in production yet — stay tuned for updates!
 
 **This project is currently under active development and not yet functional.**
 We’re working hard to complete core features, and things may break or not work at all.
-Please do not use this in production yet — stay tuned for updates!
+Please do not use this in production yet, stay tuned for updates!
 
 ---
 
